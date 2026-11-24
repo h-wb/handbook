@@ -48,6 +48,9 @@ These pages are mostly about how things run across repos, and belong here in the
 - Routines and skills are instructions an agent runs, not pages. They get no properties.
 - A page gets `reviewed` only when someone checked it. Adding the properties is not a check, so these pages start untracked and enter the weekly review one by one.
 
+- A repo holds final pages only. A working document of a project lives with its task on the board and is deleted when the project closes. The security audit in home-ops moved there on 2026-11-24.
+- This page is itself the plan of one task. It is removed when that task closes.
+
 ## Open
 
 - Whether the self-hosted apps each get a page, so the table of systems also answers "do I use this".
