@@ -46,5 +46,6 @@ Private data only reaches models you trust with it. Notes, mail, calendar, perso
 ## Browse
 
 - [Systems](Systems/): one page per thing that runs.
+- [Repos](Repos/): one page per code repo.
 - [Decisions](Decisions/): one page per decision.
 - In Obsidian: [Pages.base](Templates/Bases/Pages.base) lists every page, the longest unreviewed first.

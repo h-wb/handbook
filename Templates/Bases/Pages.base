@@ -3,6 +3,7 @@ filters:
     - '!file.name.contains("Template")'
     - or:
         - categories.contains(link("Systems"))
+        - categories.contains(link("Repos"))
         - categories.contains(link("Resources"))
         - categories.contains(link("Plans"))
         - categories.contains(link("Decisions"))
@@ -49,3 +50,16 @@ views:
     sort:
       - property: created
         direction: DESC
+  - type: table
+    name: Repos
+    filters:
+      and:
+        - categories.contains(link("Repos"))
+    order:
+      - file.name
+      - url
+      - topics
+      - summary
+    sort:
+      - property: file.name
+        direction: ASC

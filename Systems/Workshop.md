@@ -8,13 +8,12 @@ reviewed: 2026-11-24
 status:
   - active
 summary: Where coding agents work, the rules they follow, and how those rules reach each repo without being copied.
-url: https://github.com/h-wb/home-ops
 created: 2026-11-24T21:00
 ---
 
 # Workshop
 
-Where agents with a shell work on the repos, through pull requests. Today it is Paseo, one workshop per scope. How it is deployed and wired: `kubernetes/apps/main/llm/paseo` in home-ops.
+Where agents with a shell work on the repos, through pull requests. Today it is Paseo, one workshop per scope. How it is deployed and wired is in [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/paseo`.
 
 ## The rules
 

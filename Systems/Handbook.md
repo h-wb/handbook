@@ -6,7 +6,6 @@ reviewed: 2026-11-24
 status:
   - active
 summary: How pages are written here, where a page lives, and how pages stay true.
-url: https://github.com/h-wb/handbook
 created: 2026-11-24T21:00
 ---
 
@@ -38,7 +37,7 @@ created: 2026-11-24T21:00
 
 | Property | Holds |
 | --- | --- |
-| `categories` | What it is: Systems, Resources, Plans or Decisions |
+| `categories` | What it is: Systems, Repos, Resources, Plans or Decisions |
 | `area` | Which part of life. Homelab for most pages here |
 | `status` | Only on Systems: `active` or `inactive` |
 | `topics` | What it is about, when it helps |
@@ -58,6 +57,7 @@ created: 2026-11-24T21:00
 | Resources | Reference kept: how-tos, fixes | When to use it, the steps, how to check it worked |
 | Plans | A plan followed over time | The goal with its "done when", now, next, open questions |
 | Decisions | One decision | Context, decision, consequences. One page at most |
+| Repos | One code repo | What it holds and where its pages are. Ten lines |
 
 Templates for each are in [Templates](../Templates/).
 
@@ -65,13 +65,12 @@ Templates for each are in [Templates](../Templates/).
 
 A system page is named for the role, and the product that fills it today is an alias: [Board](Board.md) is also known as Orbit. Other pages say "the board" and link to that page. When the product changes, one page changes.
 
-A system page is the only place that names its repos.
+Systems and repos are different things: a system is a role, a repo is where code lives, and one system can span several repos. Each repo has one page in [Repos](../Repos/), and that page is the only place that describes it. It names the systems it serves in `topics`, so each system page lists its repos by itself. Adding a repo is adding one page.
 
 ## Links between pages
 
 - A page about a system names it in `topics`: `"[[Board]]"`. That is all it takes to belong to it, in this repo or in a code repo.
 - A system page ends with `![[Related.base#Everything]]`. In Obsidian that lists every page that names it or links to it, grouped by category. Nobody keeps that list by hand. It is the one embed allowed here; on GitHub it shows as a line of text.
-- A system page's own "Where its code is" stays a short hand-written list of entry points, not an inventory.
 - An agent finds the same pages with `grep -rl '\[\[Board\]\]'` across the repos.
 
 ## Names
@@ -99,6 +98,7 @@ A page is due when `reviewed` is older than its interval:
 | Resources | 90 days |
 | Systems | 180 days |
 | Plans | 30 days |
+| Repos | 180 days |
 | Decisions | never. A decision is replaced, not reviewed |
 
 A page with no `reviewed` is not tracked.
