@@ -13,6 +13,6 @@ created: 2026-11-24T21:00
 
 # pipelines
 
-The application behind the warehouse, and the collector installed on devices. Its design decisions are in its own `docs/`.
+The application behind the warehouse, and the collector installed on devices. Agents start with its [AGENTS.md](https://github.com/h-wb/pipelines/blob/main/AGENTS.md); its pages are indexed in [docs/README.md](https://github.com/h-wb/pipelines/blob/main/docs/README.md), and its design decisions are numbered in [docs/miroir/decisions.md](https://github.com/h-wb/pipelines/blob/main/docs/miroir/decisions.md).
 
 It is deployed from home-ops, and the collector is configured from dotfiles.

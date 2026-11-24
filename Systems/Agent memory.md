@@ -22,11 +22,11 @@ A store agents write to and recall from across sessions. Today it is Memini, wit
 
 ## How it fits
 
-It is never the only copy of a plan or a rule. What an agent learns and others need goes on [the board](Board.md) or in a page.
+It is never the only copy of a plan or a rule. What an agent learns and others need goes on [the board](Board.md) or in a page. Each agent records into its own scope's store, and private agents only read the general one: [decision](../Decisions/2026-11-09%20Each%20agent%20remembers%20in%20the%20store%20of%20its%20scope.md).
 
 ## Where its code is
 
-[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/memini-general` and `memini-private`.
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/memini-general` and `memini-private`. Client keys and the names kept from before: [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md#preserved-identities) there.
 
 ## Related
 

@@ -18,11 +18,11 @@ created: 2026-11-24T22:00
 
 # Home hub
 
-Runs the house's automations. Later it is meant to give the [assistant](Assistant.md) live signals, such as arriving home.
+Runs the house's automations. It gives the [assistant](Assistant.md) no live signals today (HOMEL-47).
 
 ## Where its code is
 
-[home-ops](../Repos/home-ops.md), under `kubernetes/apps/edge/home-automation`.
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/edge/home-automation`. The edge cluster runs as a VM on a Mac with the Zigbee dongle passed through: [hosts/edge-mac](https://github.com/h-wb/home-ops/blob/main/hosts/edge-mac/README.md).
 
 ## Related
 

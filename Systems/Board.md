@@ -19,7 +19,7 @@ created: 2026-11-24T21:00
 
 # Board
 
-The one list of what is to do for the build, shared with agents. Today it is Orbit, self-hosted, project Homelab: tasks are `HOMEL-<n>`. Agents reach it through the tool gateway. On trial until 2026-12-08: [decision](../Decisions/2026-11-24%20Orbit%20holds%20the%20build%20board.md).
+The one list of what is to do for the build, shared with agents. Today it is Orbit, self-hosted, project Homelab: tasks are `HOMEL-<n>`. Agents reach it through the tool gateway. On trial until 2026-12-08: [decision](../Decisions/2026-11-24%20Orbit%20holds%20the%20build%20board.md). Its setup and what to keep to restore it: [orbit/README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/default/orbit/README.md) in [home-ops](../Repos/home-ops.md).
 
 Personal tasks are not on it, and nothing private is written there.
 

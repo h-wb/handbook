@@ -18,7 +18,7 @@ created: 2026-11-24T22:00
 
 # Dashboards
 
-Where you look at the [warehouse](Warehouse.md) in charts. Today it is Metabase.
+Where you look at the [warehouse](Warehouse.md) in charts. Today it is Metabase. The dashboards read the schemas the warehouse's analyses build: [which packages build what](https://github.com/h-wb/pipelines/blob/main/docs/miroir/analyses.md).
 
 ## Where its code is
 
