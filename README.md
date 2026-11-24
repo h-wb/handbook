@@ -45,8 +45,10 @@ Private data only reaches models you trust with it. Notes, mail, calendar, perso
 
 ## Browse
 
-- [Systems](Systems/): one page per thing that runs.
+- [Map](Map.md): how the systems connect, and what reaches the warehouse.
+- [Systems](Systems/): one page per thing that runs. Its properties make [the table of systems](Systems/Handbook.md#the-table-of-systems): what is in use, how much, what it costs to keep, and when it was last checked.
 - [Repos](Repos/): one page per code repo.
 - [Resources](Resources/): how-tos and references.
 - [Decisions](Decisions/): one page per decision.
+- [Plans](Plans/): [the road](Plans/The%20road.md) and what is being reorganised.
 - In Obsidian: [Pages.base](Templates/Bases/Pages.base) lists every page, the longest unreviewed first.

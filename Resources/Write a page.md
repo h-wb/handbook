@@ -58,6 +58,27 @@ created: 2026-11-24T21:00
 
 `summary` and `reviewed` are the two this handbook adds to the vault's set. No empty properties, no tags.
 
+A system page carries three more, which make the table of systems in [Handbook](../Systems/Handbook.md#the-table-of-systems). Leave one out when nobody has judged it yet.
+
+| Property | Holds | Values |
+| --- | --- | --- |
+| `use` | How much you really use it | `daily`, `weekly`, `rarely`, `never` |
+| `upkeep` | How much attention it asks for | `low`, `medium`, `high` |
+| `confidence` | How sure you are it is worth keeping as it is | `high`, `medium`, `low` |
+
+And four that make the [map](../Map.md):
+
+| Property | Holds | Values |
+| --- | --- | --- |
+| `type` | What kind of system it is | `agent`, `platform`, `record`, `service`, `source`, `work` |
+| `hosted` | Where it runs | `self`, `external`, `device` |
+| `uses` | The systems it needs to run | Links to their pages |
+| `feeds` | The systems its data goes to | Links to their pages |
+
+Only what is in place today goes in `uses` and `feeds`. What is planned is said in the page's text.
+
+`use` and `confidence` are yours to say. An agent may propose `upkeep` from what it sees (incidents, changes, alerts) and says so in the pull request.
+
 
 ## What each category is
 

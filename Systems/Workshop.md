@@ -4,10 +4,20 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: Where coding agents work, the rules they follow, and how those rules reach each repo without being copied.
+type:
+  - agent
+upkeep: medium
+uses:
+  - "[[Model gateway]]"
+  - "[[Tool gateway]]"
+  - "[[Agent memory]]"
+  - "[[Board]]"
+  - "[[Handbook]]"
 created: 2026-11-24T21:00
 ---
 

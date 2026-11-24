@@ -33,7 +33,11 @@ views:
       - file.name
       - aliases
       - status
+      - use
+      - upkeep
+      - confidence
       - reviewed
+      - formula.due
       - summary
     sort:
       - property: file.name
@@ -59,6 +63,50 @@ views:
       - file.name
       - url
       - topics
+      - summary
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Plans
+    filters:
+      and:
+        - categories.contains(link("Plans"))
+    order:
+      - file.name
+      - reviewed
+      - formula.due
+      - summary
+    sort:
+      - property: reviewed
+        direction: ASC
+  - type: table
+    name: Connections
+    filters:
+      and:
+        - categories.contains(link("Systems"))
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - aliases
+      - hosted
+      - uses
+      - feeds
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Feeds the warehouse
+    filters:
+      and:
+        - categories.contains(link("Systems"))
+        - list(feeds).contains(link("Warehouse"))
+    order:
+      - file.name
+      - aliases
+      - hosted
       - summary
     sort:
       - property: file.name

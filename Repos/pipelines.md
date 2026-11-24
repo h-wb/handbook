@@ -5,6 +5,7 @@ categories:
 reviewed: 2026-11-24
 summary: "The warehouse's code: the server, the loaders, the models, and the collector that runs on devices."
 topics:
+  - "[[Device collector]]"
   - "[[Warehouse]]"
 url: https://github.com/h-wb/pipelines
 created: 2026-11-24T21:00

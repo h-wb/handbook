@@ -5,6 +5,7 @@ categories:
 reviewed: 2026-11-24
 summary: Every machine's setup and every agent's configuration, applied with one command.
 topics:
+  - "[[Device collector]]"
   - "[[Workshop]]"
 url: https://github.com/h-wb/dotfiles
 created: 2026-11-24T21:00
