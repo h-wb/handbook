@@ -41,6 +41,18 @@ Personal tasks are not on it, and nothing private is written there.
 
 Whoever finishes a step moves the next one to Todo.
 
+## Labels
+
+Six, for what the parent, the assignee and the status do not show. A task carries every label that applies; a parent shows what it serves, so it is never a label.
+
+| Label | Means |
+| --- | --- |
+| `handbook`, `home-ops`, `pipelines`, `dotfiles` | The repo its pull requests land in. A task that touches two carries both |
+| `decision` | A choice only you can make |
+| `hands-on` | Needs your machine, your accounts or the NAS; an agent cannot do it |
+
+A new label is added only when one of these keeps being wrong. One that is on few tasks after two weeks goes.
+
 ## Tasks and pull requests
 
 - The task lists its pull requests.
