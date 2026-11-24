@@ -1,9 +1,9 @@
 ---
 id: write-pages
-type: reference
+kind: reference
 system: handbook
 status: draft
-summary: The header every page carries, the five page types and their shapes, and where a page lives.
+summary: The header every page carries, the five kinds of page and their shapes, and where a page lives.
 created: 2026-11-24
 reviewed: 2026-11-24
 ---
@@ -19,7 +19,7 @@ we move to later.
 ```yaml
 ---
 id: miroir-timeline          # never changes, survives renames and moves
-type: overview               # overview | how-to | decision | reference | plan
+kind: overview               # overview | how-to | decision | reference | plan
 system: miroir               # an id from registry.yaml
 status: active               # draft | active | superseded | archived
 summary: How a day is rebuilt from screen, browser and messages.
@@ -30,7 +30,7 @@ reviewed: 2026-11-24         # last time someone checked it is still true
 
 Optional, only when needed:
 
-- `review_every`: days between reviews, when the default for the type does not fit.
+- `review_every`: days between reviews, when the default for the kind does not fit.
 - `owner`: only when it is not obvious who keeps the page true.
 - `supersedes`, `superseded_by`: the id of the other page.
 
@@ -41,9 +41,12 @@ Not in the header, on purpose:
   [How pages stay true](keep-pages-true.md).
 - **Tags.**
 
-## The five types
+The field is `kind`, not `type`, because the vault already uses `type` for
+other things and the header must mean the same everywhere.
 
-| Type | Shape |
+## The five kinds
+
+| Kind | Shape |
 | --- | --- |
 | overview | What it is, how it fits, its parts, how to operate it |
 | how-to | When to use it, the steps, how to check it worked |

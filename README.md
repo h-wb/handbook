@@ -1,6 +1,6 @@
 ---
 id: start-here
-type: overview
+kind: overview
 system: handbook
 status: draft
 summary: What the whole thing is for, where each kind of thing lives, the one privacy rule, and how to pick up the work.
@@ -31,7 +31,7 @@ time well and be present. It is a tool, not the project of your life.
 A thing is written once. Everywhere else links to it.
 
 The systems and the repos are listed once, in [registry.yaml](registry.yaml).
-Every page is listed in [INDEX.md](INDEX.md), which is generated.
+Every page shows in [Pages.base](Pages.base), an Obsidian base over the headers.
 
 ## The one rule
 

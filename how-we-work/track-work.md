@@ -1,6 +1,6 @@
 ---
 id: track-work
-type: reference
+kind: reference
 system: handbook
 status: draft
 summary: What a task is, how ownership and readiness are shown, and how tasks and pull requests point at each other.

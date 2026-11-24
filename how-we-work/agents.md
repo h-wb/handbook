@@ -1,6 +1,6 @@
 ---
 id: agent-rules
-type: reference
+kind: reference
 system: handbook
 status: draft
 summary: The rules every agent follows, and how they reach each repo, each skill and the assistant without being copied.

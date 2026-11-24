@@ -1,6 +1,6 @@
 ---
 id: decision-handbook-in-git
-type: decision
+kind: decision
 system: handbook
 status: active
 summary: Pages that span repos live in this repo as plain Markdown; the vault gets a read-only copy; the board is a separate tool.

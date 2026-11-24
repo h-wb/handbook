@@ -1,6 +1,6 @@
 ---
 id: decision-orbit-board
-type: decision
+kind: decision
 system: handbook
 status: active
 summary: A trial of Orbit, self-hosted, as the build board shared with agents, judged on 2026-12-08.
