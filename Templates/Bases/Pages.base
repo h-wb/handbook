@@ -67,3 +67,16 @@ views:
     sort:
       - property: file.name
         direction: ASC
+  - type: table
+    name: Plans
+    filters:
+      and:
+        - categories.contains(link("Plans"))
+    order:
+      - file.name
+      - reviewed
+      - formula.due
+      - summary
+    sort:
+      - property: reviewed
+        direction: ASC
