@@ -33,7 +33,11 @@ views:
       - file.name
       - aliases
       - status
+      - use
+      - upkeep
+      - confidence
       - reviewed
+      - formula.due
       - summary
     sort:
       - property: file.name

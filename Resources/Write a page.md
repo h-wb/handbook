@@ -58,6 +58,16 @@ created: 2026-11-24T21:00
 
 `summary` and `reviewed` are the two this handbook adds to the vault's set. No empty properties, no tags.
 
+A system page carries three more, which make the table of systems in [Handbook](../Systems/Handbook.md#the-table-of-systems). Leave one out when nobody has judged it yet.
+
+| Property | Holds | Values |
+| --- | --- | --- |
+| `use` | How much you really use it | `daily`, `weekly`, `rarely`, `never` |
+| `upkeep` | How much attention it asks for | `low`, `medium`, `high` |
+| `confidence` | How sure you are it is worth keeping as it is | `high`, `medium`, `low` |
+
+`use` and `confidence` are yours to say. An agent may propose `upkeep` from what it sees (incidents, changes, alerts) and says so in the pull request.
+
 
 ## What each category is
 

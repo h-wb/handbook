@@ -8,6 +8,7 @@ reviewed: 2026-11-24
 status:
   - active
 summary: Where the build's tasks live, what a task is, and how ownership and readiness are shown.
+upkeep: medium
 created: 2026-11-24T21:00
 ---
 

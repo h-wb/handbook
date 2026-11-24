@@ -6,6 +6,7 @@ reviewed: 2026-11-24
 status:
   - active
 summary: What the handbook is, where a page lives, how systems and repos are named once, and how pages stay true.
+upkeep: low
 created: 2026-11-24T21:00
 ---
 
@@ -28,6 +29,14 @@ A system page is named for the role, and the product that fills it today is an a
 
 Systems and repos are different things: a system is a role, a repo is where code lives, and one system can span several repos. Each repo has one page in [Repos](../Repos/), and that page is the only place that describes it. It names the systems it serves in `topics`, so each system page lists its repos by itself. Adding a repo is adding one page.
 
+
+## The table of systems
+
+One row per system, from the properties of its page: whether it is in use (`status`), how much you really use it (`use`), how much attention it asks for (`upkeep`), how sure you are it is worth keeping as it is (`confidence`), and when it was last checked (`reviewed`).
+
+It is the view of where things stand: what runs, what you rely on, what costs more than it gives. In Obsidian it is the Systems view of [Pages.base](../Templates/Bases/Pages.base). A blank cell means nobody has judged it yet.
+
+The assistant reads the same properties. A system that is used rarely, asks for a lot, or has low confidence is one to bring up for revision.
 
 ## Staying true
 

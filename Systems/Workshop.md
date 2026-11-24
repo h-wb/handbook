@@ -8,6 +8,7 @@ reviewed: 2026-11-24
 status:
   - active
 summary: Where coding agents work, the rules they follow, and how those rules reach each repo without being copied.
+upkeep: medium
 created: 2026-11-24T21:00
 ---
 
