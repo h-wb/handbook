@@ -27,7 +27,7 @@ Two agents read every documentation page on 2026-11-24: 27 in home-ops, 23 in pi
 ## Next
 
 5. The vault's homelab notes that describe systems go to home-ops, rewritten without private details: the NAS shares, the secret-store certificate incident, the monitoring choices, a dataset setting. Three hub notes in the vault are cut down to pointers.
-6. The agent instructions of pipelines and of dotfiles are cut the same way. The one in dotfiles is 657 lines.
+6. The agent instructions of dotfiles are cut the same way; the one there is 657 lines. Those of pipelines were cut on 2026-11-24, with every pipelines page checked against its code (pipelines#53).
 7. The handbook gets a read-only copy in the vault.
 8. An agent reviews the five pages longest without a check, each week.
 
@@ -40,7 +40,7 @@ These pages are mostly about how things run across repos, and belong here in the
 | The AI setup's design, in home-ops | Done on 2026-11-24: a decision per choice in [Decisions](../Decisions/), what is deployed in home-ops' AI setup README, the rest onto the system pages and the board |
 | The assistant's design, in home-ops | Done on 2026-11-24: [The aware assistant](The%20aware%20assistant.md), and decisions |
 | The flows of the AI setup and of the warehouse, in home-ops | Stay. They show deployed wiring, which a change to home-ops can make wrong |
-| The warehouse's product plan, in pipelines | What is still open comes here. What is done is archived there |
+| The warehouse's product plan, in pipelines | Done on 2026-11-24: what defines the product is in pipelines' Miroir reference, what was left went to the board, and the plan and the implementation log were removed (pipelines#53) |
 
 ## Decided
 

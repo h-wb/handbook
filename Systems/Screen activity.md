@@ -19,7 +19,7 @@ created: 2026-11-24T23:45
 
 A source of the [warehouse](Warehouse.md). Today it is ScreenMemory. Read on the Mac by the [device collector](Device%20collector.md), which masks secrets before anything leaves.
 
-How it is read and what it becomes there is in [pipelines](../Repos/pipelines.md), under `docs/sources`.
+How it is read and what it becomes there: [its page in pipelines](https://github.com/h-wb/pipelines/blob/main/docs/sources/screenmemory.md).
 
 ## Related
 

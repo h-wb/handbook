@@ -19,7 +19,7 @@ created: 2026-11-24T23:45
 
 A source of the [warehouse](Warehouse.md). Today it is ListenBrainz. Fetched from the service on a schedule.
 
-How it is read and what it becomes there is in [pipelines](../Repos/pipelines.md), under `docs/sources`.
+How it is read and what it becomes there: [its page in pipelines](https://github.com/h-wb/pipelines/blob/main/docs/sources/listenbrainz.md).
 
 ## Related
 

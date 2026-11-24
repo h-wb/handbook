@@ -22,7 +22,7 @@ Where work on real data runs without an agent in the loop. Today it is Prefect.
 
 ## How it fits
 
-The [warehouse](Warehouse.md) uses it for every load and every build. A job is defined in the repo of the code it runs. The assistant is to start named jobs on private data through it, not yet built: [decision](../Decisions/2026-11-09%20One%20private%20assistant%20acts%20only%20through%20named%20tools.md).
+The [warehouse](Warehouse.md) uses it for every load and every build: [how](https://github.com/h-wb/pipelines/blob/main/docs/miroir/runs.md#prefect). A job is defined in the repo of the code it runs. The assistant is to start named jobs on private data through it, not yet built: [decision](../Decisions/2026-11-09%20One%20private%20assistant%20acts%20only%20through%20named%20tools.md).
 
 ## Where its code is
 
