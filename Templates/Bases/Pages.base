@@ -1,0 +1,65 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+    - or:
+        - categories.contains(link("Systems"))
+        - categories.contains(link("Repos"))
+        - categories.contains(link("Resources"))
+        - categories.contains(link("Plans"))
+        - categories.contains(link("Decisions"))
+formulas:
+  due: 'if(reviewed, if(categories.contains(link("Plans")), reviewed < today() - "30d", if(categories.contains(link("Resources")), reviewed < today() - "90d", reviewed < today() - "180d")), false)'
+properties:
+  formula.due:
+    displayName: Due
+views:
+  - type: table
+    name: Oldest review first
+    order:
+      - file.name
+      - categories
+      - reviewed
+      - formula.due
+      - summary
+    sort:
+      - property: reviewed
+        direction: ASC
+  - type: table
+    name: Systems
+    filters:
+      and:
+        - categories.contains(link("Systems"))
+    order:
+      - file.name
+      - aliases
+      - status
+      - reviewed
+      - summary
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Decisions
+    filters:
+      and:
+        - categories.contains(link("Decisions"))
+    order:
+      - file.name
+      - created
+      - summary
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Repos
+    filters:
+      and:
+        - categories.contains(link("Repos"))
+    order:
+      - file.name
+      - url
+      - topics
+      - summary
+    sort:
+      - property: file.name
+        direction: ASC

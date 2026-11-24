@@ -1,0 +1,23 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+    - or:
+        - list(topics).contains(this)
+        - topics.contains(this.file.name)
+        - file.links.contains(this.file)
+properties:
+  file.name:
+    displayName: Page
+views:
+  - type: table
+    name: Everything
+    groupBy:
+      property: categories
+      direction: ASC
+    order:
+      - file.name
+      - reviewed
+      - summary
+    sort:
+      - property: file.name
+        direction: ASC
