@@ -20,7 +20,7 @@ The box that holds bulk storage and backups, and the object store the clusters b
 
 ## Where its code is
 
-Its containers are deployed from [home-ops](../Repos/home-ops.md), under `docker/truenas`, where the rebuild and restore steps are.
+Its containers are deployed from [home-ops](../Repos/home-ops.md), under `docker/truenas`. How they are deployed, how to rebuild the NAS and how to restore the object store: [docker/truenas/README.md](https://github.com/h-wb/home-ops/blob/main/docker/truenas/README.md).
 
 ## Related
 

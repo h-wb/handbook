@@ -22,7 +22,7 @@ A small program on each of your machines that feeds the [warehouse](Warehouse.md
 
 ## Where its code is
 
-The program is part of [pipelines](../Repos/pipelines.md). Its settings on your laptop are in [dotfiles](../Repos/dotfiles.md), and on the always-on Mac in [home-ops](../Repos/home-ops.md), under `hosts/edge-mac`.
+The program is part of [pipelines](../Repos/pipelines.md). Its settings on your laptop are in [dotfiles](../Repos/dotfiles.md). The always-on Mac does not run it yet; when it does, its settings go in [home-ops](../Repos/home-ops.md), under `hosts/edge-mac`.
 
 ## Related
 

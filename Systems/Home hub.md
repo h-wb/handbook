@@ -22,7 +22,7 @@ Runs the house's automations. Later it is meant to give the [assistant](Assistan
 
 ## Where its code is
 
-[home-ops](../Repos/home-ops.md), under `kubernetes/apps/edge/home-automation`.
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/edge/home-automation`. The edge cluster runs as a VM on a Mac with the Zigbee dongle passed through: [hosts/edge-mac](https://github.com/h-wb/home-ops/blob/main/hosts/edge-mac/README.md).
 
 ## Related
 

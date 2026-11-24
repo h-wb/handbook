@@ -31,7 +31,7 @@ The record of what happened. Today it is Miroir.
 
 ## Where its code is
 
-The application is [pipelines](../Repos/pipelines.md). It is deployed from [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/automation/miroir`, where its page says what is deployed and how data flows.
+The application is [pipelines](../Repos/pipelines.md). It is deployed from [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/automation/miroir`: what is deployed, its secrets and how to operate it in [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md), how data moves in [docs/flows.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/docs/flows.md).
 
 ## Related
 
