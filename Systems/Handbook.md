@@ -26,6 +26,11 @@ This repo. Plain Markdown with the vault's own properties, so a page reads the s
 
 A repo holds final pages: what is true and stays true. A working document lives as long as its project. When the project closes, what lasts is written into a final page (a decision, or a change to the page of the system it touched), and the working document is deleted with the task.
 
+Two things that look like pages and are not:
+
+- What a running system holds as its own configuration or state, such as the warehouse's list of connections or the dashboards in the dashboard service. No page keeps a copy; the page says where to read it.
+- What is planned. A page may say in one line that something is not built yet and link its plan or task. The design of something unbuilt stays with its task until it exists.
+
 If it fits one screen it goes in the task's description. If it is longer it is a document attached to the task. Either way it is not public, which matters for an audit that lists what is still open.
 
 A replaced or dropped page moves to `Archives/`, with `superseded_by` when another page replaces it. Same move as in the vault, and the only one.
@@ -72,7 +77,11 @@ Who checks:
 - Once a week, an agent takes the five pages longest without review, checks each against the code or the cluster, and sets `reviewed` or fixes the page.
 - You are asked only when a page states something only you know.
 
-In Obsidian, [Pages.base](../Templates/Bases/Pages.base) shows every page with its last review, oldest first.
+In Obsidian, [Pages.base](../Templates/Bases/Pages.base) shows every page of this handbook with its last review, oldest first. Pages in the other repos carry the same properties but are outside this folder, so the table does not list them yet: they join it when the handbook and the repos' pages are copied into the vault together. Until then, one command over the repos side by side lists them all:
+
+```sh
+grep -r --include='*.md' -H '^reviewed:' handbook home-ops pipelines dotfiles | sort -t: -k3
+```
 
 
 ## Related
