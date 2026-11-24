@@ -48,6 +48,7 @@ flowchart LR
         TG["Tool gateway"]
         AM["Agent memory"]
         JR["Job runner"]
+        WR["Workflow runner"]
         CL["Cluster"]
         NA["NAS"]
     end
@@ -66,8 +67,10 @@ flowchart LR
     TG --> CL
     AM --> CL
     JR --> CL
+    WR --> NV
+    WR --> CL
     CL --> NA
-    class PT,CA,NV,MA,HH,LT,DC,WH,DA,AS,WS,BO,HB,MG,TG,AM,JR,CL,NA internal-link;
+    class PT,CA,NV,MA,HH,LT,DC,WH,DA,AS,WS,BO,HB,MG,TG,AM,JR,WR,CL,NA internal-link;
 ```
 
 A solid arrow is in place today. A dashed one is planned.
