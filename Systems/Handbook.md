@@ -73,8 +73,8 @@ A page with no `reviewed` is not tracked.
 
 Who checks:
 
-- With the work. A task is not done until the pages it made wrong are fixed.
-- Once a week, an agent takes the five pages longest without review, checks each against the code or the cluster, and sets `reviewed` or fixes the page.
+- With the work. A task is not done until the pages it made wrong are fixed. Pages name the task that will change them, so they are found by its number: [tasks and pages](Board.md#tasks-and-pages).
+- Once a week, an agent takes the five pages longest without review, checks each against the code or the cluster, and sets `reviewed` or fixes the page. It also fixes every line that still names a task the board shows as Done.
 - You are asked only when a page states something only you know.
 
 In Obsidian, [Pages.base](../Templates/Bases/Pages.base) shows every page of this handbook with its last review, oldest first. Pages in the other repos carry the same properties but are outside this folder, so the table does not list them yet: they join it when the handbook and the repos' pages are copied into the vault together. Until then, one command over the repos side by side lists them all:
