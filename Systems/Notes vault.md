@@ -20,8 +20,12 @@ Your vault. Private: only you and agents of the private scope read it.
 
 ## How it fits
 
-- A copy in the cluster stays in sync, and the [tool gateway](Tool%20gateway.md) serves it to private agents.
-- The [assistant](Assistant.md) writes only in its own folders, and asks first.
+- The vault's own sync carries it to every device. A headless copy in the cluster is one more device, synced both ways.
+- The [tool gateway](Tool%20gateway.md) serves that copy to private agents through two servers: one reads everything, one writes only in `Notes/`, `AI/` and `Archives/`. Only the private gateways list them.
+- The [assistant](Assistant.md) asks before every write, and reads the vault's own rules first. What a model writes goes to `AI/`.
+- A [workflow](Workflow%20runner.md) writes a note through an Obsidian that runs in the cluster, not by dropping a file on the share: a file written by another pod is never noticed, so it never syncs.
+- On a workstation the vault is a plain folder. An agent started inside it reads it whatever its scope, so that is your call each time.
+- Nothing a general agent must follow lives in the vault: it could not read it. Such rules live in a repo or in this handbook.
 - This handbook is meant to appear in it as a read-only copy, so your notes can link to these pages.
 
 ## Where its code is

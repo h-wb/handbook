@@ -34,7 +34,7 @@ dotfiles defines what an agent is (its tool and memory servers, skills, instruct
 3. Branch and pull request. Never the main branch. Someone other than the author reviews what changes behaviour.
 4. Spend with care. Name a cheap model for every helper, one or two at a time. Do not step up to a dearer model without asking.
 5. Write little. Follow [Write a page](../Resources/Write%20a%20page.md).
-6. Finish by updating the record: the task and its steps, and any page your change made wrong.
+6. Finish by updating the record: the task and its steps, and any page your change made wrong. Search the task's number in the repos to find them: [tasks and pages](Board.md#tasks-and-pages).
 7. Park ideas. A new idea is one line in the backlog, not more work now.
 
 ## How the rules reach everything

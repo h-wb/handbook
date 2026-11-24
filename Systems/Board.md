@@ -48,6 +48,19 @@ Whoever finishes a step moves the next one to Todo.
 - The agent that opens or merges a pull request updates the step.
 - A task is closed after a reviewed merge or after you accept it, never because an agent thinks it is done.
 
+## Tasks and pages
+
+A page that states something a task will change names the task beside it: "does not read the warehouse today (HOMEL-49)". That makes the pages a task touches findable.
+
+- Before closing a task, search its number in every repo and bring each line up to date, in the same pull request where possible:
+
+  ```sh
+  grep -rn --include='*.md' 'HOMEL-49\b' handbook home-ops pipelines dotfiles
+  ```
+
+- The line then states the new fact and drops the number. A closed task's number in a page is a page left stale.
+- Once a week the review agent lists the numbers that pages still name while their task is Done, and fixes them. It is the net, not the method: the agent that did the work knows what changed.
+
 ## Working documents
 
 An audit, an investigation, the plan of one outcome: these belong to the task, not to a repo. Short ones go in the description, longer ones in a document linked from it. When the task closes, what lasts goes into a final page and the working document is deleted. See [Handbook](Handbook.md#where-a-page-lives).
