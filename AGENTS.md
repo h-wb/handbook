@@ -1,16 +1,13 @@
 # handbook: instructions for agents
 
-This repo holds what spans repos and how we work. Read [README.md](README.md) first.
+What spans repos, and how things run. Read [README.md](README.md), then [Systems/Handbook.md](Systems/Handbook.md), which is the standard for every page here.
 
-- **Scope.** Nothing private goes here: no personal details, no domain names,
-  no addresses, no secrets. The repo is public.
-- **Pages** follow [how-we-work/write-pages.md](how-we-work/write-pages.md):
-  the header, one of five kinds, the shape of that kind.
-- **Where a page goes.** Here if it is about more than one repo or about how we
-  work. In the code repo if a change to that code could make it wrong.
-- **Repos and systems** are named only in `registry.yaml` and in a system's own
-  overview under `systems/`.
-- **`Pages.base`** is the table of all pages. It reads the headers; do not
-  list pages anywhere by hand.
-- **`reviewed`** changes only when you checked the page against reality.
+- Nothing private goes here: no personal details, no domain names, no addresses, no secrets. The repo is public.
+- Properties are the vault's: lowercase keys, alphabetical, `created` last, links as `"[[Name]]"`, no empty properties, no tags. Start a page from `Templates/`.
+- A system page is named for its role, with today's product in `aliases`. Other pages name the role and link to it. Only a system page names its repos.
+- A page goes here if it is about more than one repo or about how things run. If a change to one repo's code could make it wrong, it goes in that repo.
+- `reviewed` changes only when you checked the page against reality.
+- Style: plain and dense, no commentary about the page itself, few em-dashes, little bold. Shorten before appending.
+- A replaced or dropped page moves to `Archives/`. Nothing is deleted.
+- After editing a `.base`, check it has no duplicate YAML key.
 - Branch and pull request; never push to `main`.
