@@ -23,6 +23,21 @@ The one list of what is to do for the build, shared with agents. Today it is Orb
 
 Personal tasks are not on it, and nothing private is written there.
 
+## Reading it as an agent
+
+Through the tool gateway, tools `orbit_*` (find them with `find_tool`). The project id of Homelab is `01a20b1d-1555-72d7-8277-76cfb9212e3e`. A task shows its status as an id:
+
+| Status id ends in | Status |
+| --- | --- |
+| `0ded73a75c10` | Backlog |
+| `0dee90feea86` | Todo |
+| `0defbef9ca89` | In Progress |
+| `0df0be67655d` | Done |
+
+The whole list is too long for one answer and paging repeats the first page, so read it by outcome: `orbit_list_tasks` with `parent_task_id` set to one outcome, such as `HOMEL-17`, or `orbit_get_task` for one task. The outcomes are the tasks with no parent. When updating a task, send its `parent_task_id` again, or it is detached.
+
+A server named `homelab-tasks` on the gateway is an old stand-in, not the board (HOMEL-128).
+
 ## A task is an outcome
 
 - The title says what will be true, starting with a verb.
