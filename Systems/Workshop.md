@@ -25,7 +25,7 @@ created: 2026-11-24T21:00
 
 Where agents with a shell work on the repos, through pull requests. Today it is Paseo, one workshop per scope: [decision](../Decisions/2026-11-07%20Each%20scope%20runs%20in%20its%20own%20hardened%20pods.md). How it is deployed and wired is in [home-ops](../Repos/home-ops.md), in [paseo/README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/paseo/README.md): pods, config, profiles, credentials, volumes.
 
-dotfiles defines what an agent is (its tool and memory servers, skills, instructions and model picks, written once and rendered per scope); home-ops defines where it runs and what it can reach. A new harness or machine picks a scope; it does not get its own config. In the general workshop the strongest model plans and cheaper ones work: [decision](../Decisions/2026-11-10%20The%20strongest%20model%20plans%20and%20cheaper%20ones%20do%20the%20work.md).
+dotfiles defines what an agent is (its tool and memory servers, keys and skills, written once and rendered per scope: [conf.d/ai/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/ai/README.md)) and what a workshop pod installs ([conf.d/paseo/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/paseo/README.md)); home-ops defines where it runs, which models it uses and what it can reach. A new harness or machine picks a scope; it does not get its own config. In the general workshop the strongest model plans and cheaper ones work: [decision](../Decisions/2026-11-10%20The%20strongest%20model%20plans%20and%20cheaper%20ones%20do%20the%20work.md).
 
 ## The rules
 

@@ -26,7 +26,7 @@ It is never the only copy of a plan or a rule. What an agent learns and others n
 
 ## Where its code is
 
-[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/memini-general` and `memini-private`. Client keys and the names kept from before: [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md#preserved-identities) there.
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/memini-general` and `memini-private`. Client keys and the names kept from before: [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md#preserved-identities) there. How each agent is configured to reach its store: [conf.d/ai/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/ai/README.md) in [dotfiles](../Repos/dotfiles.md).
 
 ## Related
 

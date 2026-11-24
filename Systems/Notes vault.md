@@ -30,7 +30,7 @@ Your vault. Private: only you and agents of the private scope read it.
 
 ## Where its code is
 
-The copy and its tools are in [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/toolhive/mcp-servers/vault`. The vault's own rules are in the vault.
+The copy and its tools are in [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/toolhive/mcp-servers/vault`. The Obsidian a workflow writes through runs on the neko desktop: [conf.d/neko/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/neko/README.md#obsidian) in [dotfiles](../Repos/dotfiles.md). The vault's own rules are in the vault.
 
 ## Related
 
