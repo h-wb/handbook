@@ -31,14 +31,7 @@ The record of what happened. Today it is Miroir.
 
 ## Where its code is
 
-The application is [pipelines](../Repos/pipelines.md):
-
-- what Miroir is and how its parts work: [docs/miroir/README.md](https://github.com/h-wb/pipelines/blob/main/docs/miroir/README.md), with configuration, runs, analyses, media, the timeline and the API on the pages beside it;
-- why it is built this way: [its numbered decisions](https://github.com/h-wb/pipelines/blob/main/docs/miroir/decisions.md);
-- one page per source: [the index](https://github.com/h-wb/pipelines/blob/main/docs/README.md#sources);
-- how a stopped source is noticed: [observability](https://github.com/h-wb/pipelines/blob/main/docs/observability.md).
-
-It is deployed from [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/automation/miroir`: what is deployed, its secrets and how to operate it in [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md), how data moves in [docs/flows.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/docs/flows.md).
+The application is [pipelines](../Repos/pipelines.md); how data moves through it: [its flows](https://github.com/h-wb/pipelines/blob/main/docs/miroir/flows.md). It is deployed from [home-ops](../Repos/home-ops.md): what is deployed, its secrets and how to operate it in [its page](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md).
 
 ## Related
 
