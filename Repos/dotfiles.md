@@ -5,7 +5,11 @@ categories:
 reviewed: 2026-11-24
 summary: Every machine's setup and every agent's configuration, applied with one command.
 topics:
+  - "[[Agent memory]]"
   - "[[Device collector]]"
+  - "[[Model gateway]]"
+  - "[[Notes vault]]"
+  - "[[Tool gateway]]"
   - "[[Workshop]]"
 url: https://github.com/h-wb/dotfiles
 created: 2026-11-24T21:00
@@ -13,4 +17,8 @@ created: 2026-11-24T21:00
 
 # dotfiles
 
-What runs on your own machines: tools, settings, the collector's configuration, and the skills and tool servers each agent gets, per scope.
+What runs on your own machines and in the workshop pods: tools, settings, the collector's configuration, and the tool and memory servers, keys and skills each agent gets, per scope. mise applies it all, from one bootstrap for every machine.
+
+Agents start with its [AGENTS.md](https://github.com/h-wb/dotfiles/blob/master/AGENTS.md). Its [README.md](https://github.com/h-wb/dotfiles/blob/master/README.md) lists the machines and links each machine's page; how it uses mise is [docs/mise.md](https://github.com/h-wb/dotfiles/blob/master/docs/mise.md), agent configuration is [conf.d/ai/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/ai/README.md), and Proton Pass sessions and vaults are [conf.d/proton-pass/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/proton-pass/README.md).
+
+The pods it configures are deployed from home-ops.

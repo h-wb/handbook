@@ -28,7 +28,7 @@ Agents do not connect to tools one by one. They reach one gateway, which serves 
 
 ## Where its code is
 
-[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/toolhive`: the gateways in `config/`, one folder per tool in `mcp-servers/`. Endpoints, who may reach each gateway and with which key: [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md) and [docs/wiring.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/docs/wiring.md) there.
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/toolhive`: the gateways in `config/`, one folder per tool in `mcp-servers/`. Endpoints, who may reach each gateway and with which key: [README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md) and [docs/wiring.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/docs/wiring.md) there. How each agent is configured to reach it: [conf.d/ai/README.md](https://github.com/h-wb/dotfiles/blob/master/conf.d/ai/README.md) in [dotfiles](../Repos/dotfiles.md).
 
 ## Related
 
