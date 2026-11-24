@@ -1,0 +1,24 @@
+---
+aliases:
+  - Home Assistant
+area: "[[Homelab]]"
+categories:
+  - "[[Systems]]"
+reviewed: 2026-11-24
+status:
+  - active
+summary: Home automation, on the edge cluster.
+created: 2026-11-24T22:00
+---
+
+# Home hub
+
+Runs the house's automations. Later it is meant to give the [assistant](Assistant.md) live signals, such as arriving home.
+
+## Where its code is
+
+[home-ops](../Repos/home-ops.md), under `kubernetes/apps/edge/home-automation`.
+
+## Related
+
+![[Related.base#Everything]]

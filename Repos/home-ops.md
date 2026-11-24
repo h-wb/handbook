@@ -5,8 +5,21 @@ categories:
 reviewed: 2026-11-24
 summary: "Everything that is deployed: both clusters, the NAS containers, and the pages about them."
 topics:
-  - "[[Workshop]]"
+  - "[[Assistant]]"
   - "[[Board]]"
+  - "[[Cluster]]"
+  - "[[Collector]]"
+  - "[[Dashboards]]"
+  - "[[Home hub]]"
+  - "[[Job runner]]"
+  - "[[Memory]]"
+  - "[[Messaging]]"
+  - "[[Model gateway]]"
+  - "[[NAS]]"
+  - "[[Notes]]"
+  - "[[Tool gateway]]"
+  - "[[Warehouse]]"
+  - "[[Workshop]]"
 url: https://github.com/h-wb/home-ops
 created: 2026-11-24T21:00
 ---
