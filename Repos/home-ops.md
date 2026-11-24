@@ -28,4 +28,4 @@ created: 2026-11-24T21:00
 
 The GitOps repo. What is in it runs: Flux applies it to both clusters, and the NAS containers follow it.
 
-Its agent instructions are in `AGENTS.md` at its root. Pages about one app sit next to that app.
+Agents start with its [AGENTS.md](https://github.com/h-wb/home-ops/blob/main/AGENTS.md). Its [README.md](https://github.com/h-wb/home-ops/blob/main/README.md) gives the stack and the layout; pages about one app sit next to that app, and what spans the cluster is in [docs/](https://github.com/h-wb/home-ops/tree/main/docs).
