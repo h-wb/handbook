@@ -11,8 +11,10 @@ created:
 
 Done when
 
-## Now
+## The shape
 
-## Next
+## Why
 
-## Open
+## The work
+
+The steps, what is open and what is parked are on [the board](../Systems/Board.md), under HOMEL-.

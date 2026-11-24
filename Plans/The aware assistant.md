@@ -72,7 +72,7 @@ The assistant reads the picture through named tools on its tool gateway, each th
 
 An open loop is something you promised, were asked, or started and did not finish. It is checked against later evidence before it is raised. Patterns are written as readable lines in the vault, and your correction of a line wins.
 
-## Now
+## Today
 
 - The record works: the [warehouse](../Systems/Warehouse.md) receives from devices, apps and services, and its [page in home-ops](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md) says what it holds. Analysis is deterministic only (spans, sessions, counts).
 - The assistant speaks on a clock: briefing, location review, midday nudge, evening check-in, reminders, weekly review, all delivered to one room, Inbox. Its mechanics: [Hermes](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/hermes/README.md) and [wiring](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/docs/wiring.md#the-assistant).
@@ -80,36 +80,14 @@ An open loop is something you promised, were asked, or started and did not finis
 - Collectors report every run; three alerts watch them. The routine that would turn alerts into messages exists but is switched off.
 - None of the tools above exists. Its gateway lists the dashboard server's tools, which could query the warehouse free-form; nothing in its instructions does.
 
-## Next
+## The work
 
-In order. Each step is a sub-issue of HOMEL-43 on [the board](../Systems/Board.md).
+The steps in order, what is still to decide and to verify, and what is parked for later are on [the board](../Systems/Board.md), under HOMEL-43. Nothing of that list is kept here.
 
-1. Spine: the Now room and a room per routine, a daily budget for Now starting at three, exact-time reminders sent without a model, and the `now` snapshot from tasks, calendar, place and the Mac's state.
-2. The plan in the calendar, then mail and calendar tools. Your part first: the weekly things (workouts, meals, time for each project, this one included) go in the calendar as real blocks. Then tools that read mail and the calendar and write the calendar; today it sees only the events the task service shows.
-3. Live path: the home hub's apps on the phone and the Mac, the assistant's wake-up route, one rule and one kind of prompt ("home, thirty free minutes, here is one task"), and the prompt log from the first prompt. Two weeks of use before adding anything.
-4. Messages on the always-on Mac every minute, and the new-message doorbell.
-5. Understand jobs: span summaries and the `day` tool, then open loops from messages and mail.
-6. The log feed: voice, watch, chat.
-7. Missed-task detection, the autonomy ladder (tell, propose, do and tell, do silently; up after repeated yeses, down on one correction) and calendar writes.
-8. System review: the weekly review proposes changes to its own rules and to your systems. A change to rules or routines is a change in git, so it goes to the workshop.
+## Limits
 
-Alongside, in a free week: a trial of Screencap beside ScreenMemory.
-
-Later: other chat networks, a contacts source so the same person lines up across networks, phone app usage, a decision model if the replay test supports one.
-
-## Open
-
-To decide:
-
-- Which mail and calendar providers the tools reach.
-- Where the gate's rules live: the home hub's automations (proposed) or a small service of our own.
-- Whether raw screenshots may go to the trusted provider for spans with little text. You said yes on 2026-11-19; the masking limits were found after: screenshots cannot be masked at all.
-
-To verify:
-
-- The home hub's apps report focus mode and the front app fast enough.
-- The wake-up route works, and a run it starts can deliver to a named room.
-- Three prompts a day in Now is the right budget, after two weeks.
-- The trusted models write span summaries and extract open loops well enough.
-
-Limits to keep in view: anyone who messages you, and any page on your screen, can carry instructions, so the step that reads such text fills structured fields and calls nothing; an event-triggered run has nobody to approve a write; the phone's app usage arrives minutes late; a lit screen is not you at the keyboard; every wake-up and every span summary is a paid call on one provider.
+- Anyone who messages you, and any page on your screen, can carry instructions, so the step that reads such text fills structured fields and calls nothing.
+- An event-triggered run has nobody to approve a write.
+- The phone's app usage arrives minutes late.
+- A lit screen is not you at the keyboard.
+- Every wake-up and every span summary is a paid call on one provider.

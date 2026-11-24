@@ -86,7 +86,7 @@ Only what is in place today goes in `uses` and `feeds`. What is planned is said 
 | --- | --- | --- |
 | Systems | A noun: how something runs | What it is, how it fits, how we use it, where its code is |
 | Resources | Reference kept: how-tos, fixes | When to use it, the steps, how to check it worked |
-| Plans | A plan followed over time, not the plan of one task | The goal with its "done when", now, next, open questions |
+| Plans | Where something is going, followed over time. Not the plan of one task | The goal with its "done when", the shape, why, and the task on the board that holds the steps |
 | Decisions | One decision | Context, decision, consequences. One page at most |
 | Repos | One code repo | What it holds and where its pages are. Ten lines |
 
@@ -97,6 +97,10 @@ Only what is in place today goes in `uses` and `feeds`. What is planned is said 
 - A system: the role, in one or two words. `Board`, not the product.
 - A decision: the day it was taken, then what was decided as a sentence. `2026-11-24 Orbit holds the build board`. No running number: two pull requests cannot both take "the next one".
 - A resource or a plan: a clean title, no date.
+
+A decision gets its own page in the repo it concerns, or here if it spans repos. The one exception is pipelines' numbered decisions file: code and pages cite it by number, so it stays as it is and takes no new decision.
+
+Routines, skills and agent instructions (`SKILL.md`, `AGENTS.md` and the like) are instructions an agent runs, not pages. They get no properties.
 
 
 ## Links between pages

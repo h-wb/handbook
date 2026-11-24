@@ -50,5 +50,5 @@ Private data only reaches models you trust with it. Notes, mail, calendar, perso
 - [Repos](Repos/): one page per code repo.
 - [Resources](Resources/): how-tos and references.
 - [Decisions](Decisions/): one page per decision.
-- [Plans](Plans/): [the road](Plans/The%20road.md) and what is being reorganised.
+- [Plans](Plans/): [the road](Plans/The%20road.md) and where the assistant is going. Their steps are on the board.
 - In Obsidian: [Pages.base](Templates/Bases/Pages.base) lists every page, the longest unreviewed first.

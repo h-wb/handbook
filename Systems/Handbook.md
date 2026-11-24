@@ -29,7 +29,7 @@ A repo holds final pages: what is true and stays true. A working document lives 
 Two things that look like pages and are not:
 
 - What a running system holds as its own configuration or state, such as the warehouse's list of connections or the dashboards in the dashboard service. No page keeps a copy; the page says where to read it.
-- What is planned. A page may say in one line that something is not built yet and link its plan or task. The design of something unbuilt stays with its task until it exists.
+- What is to do. A step, a follow-up, an open question or a "not yet" is a task on the board, not a line in a page. A page states what is true today; where something missing matters to the reader, it says so as a fact and names the task, such as "does not read the warehouse today (HOMEL-49)". Closing the task means finding its number in the pages and fixing them. A plan here holds the goal and the shape; its steps are tasks.
 
 If it fits one screen it goes in the task's description. If it is longer it is a document attached to the task. Either way it is not public, which matters for an audit that lists what is still open.
 

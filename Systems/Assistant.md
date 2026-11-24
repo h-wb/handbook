@@ -32,7 +32,7 @@ The assistant you reach through [messaging](Messaging%20app.md). Today it is Her
 - It runs on a clock: a morning briefing, a location review, a midday nudge, an evening check-in, reminders, a weekly review. Coming to know the right moment instead is [The aware assistant](../Plans/The%20aware%20assistant.md).
 - It has no shell; everything it does is a named tool, and a write asks first: [decision](../Decisions/2026-11-09%20One%20private%20assistant%20acts%20only%20through%20named%20tools.md).
 - Coding work is not its job. It hands that to the [workshop](Workshop.md), and shows you the request first: [decision](../Decisions/2026-11-09%20A%20hand-off%20to%20a%20workshop%20shows%20its%20prompt%20and%20asks.md).
-- It does not read the [warehouse](Warehouse.md) yet. Named read tools over it are planned.
+- It does not read the [warehouse](Warehouse.md) today (HOMEL-49).
 
 ## Where its code is
 
