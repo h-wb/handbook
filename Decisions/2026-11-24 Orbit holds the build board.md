@@ -3,6 +3,8 @@ area: "[[Homelab]]"
 categories:
   - "[[Decisions]]"
 summary: A trial of Orbit, self-hosted, as the build board shared with agents, judged on 2026-12-08.
+topics:
+  - "[[Board]]"
 created: 2026-11-24T21:00
 ---
 
@@ -14,7 +16,7 @@ The build's tasks sat in a personal task app that agents could not read, with "(
 
 ## Decision
 
-Orbit, self-hosted, holds [the board](../Systems/Board.md): one project, Homelab. Agents reach it through the tool gateway. It holds tasks only; pages live in this repo: [decision](Shared%20pages%20live%20in%20the%20handbook.md). Personal tasks do not move.
+Orbit, self-hosted, holds [the board](../Systems/Board.md): one project, Homelab. Agents reach it through the tool gateway. It holds tasks only; pages live in this repo: [decision](2026-11-24%20Shared%20pages%20live%20in%20the%20handbook.md). Personal tasks do not move.
 
 It is a trial until 2026-12-08. Nothing else about tools changes before then.
 

@@ -67,6 +67,19 @@ A system page is named for the role, and the product that fills it today is an a
 
 A system page is the only place that names its repos.
 
+## Links between pages
+
+- A page about a system names it in `topics`: `"[[Board]]"`. That is all it takes to belong to it, in this repo or in a code repo.
+- A system page ends with `![[Related.base#Everything]]`. In Obsidian that lists every page that names it or links to it, grouped by category. Nobody keeps that list by hand. It is the one embed allowed here; on GitHub it shows as a line of text.
+- A system page's own "Where its code is" stays a short hand-written list of entry points, not an inventory.
+- An agent finds the same pages with `grep -rl '\[\[Board\]\]'` across the repos.
+
+## Names
+
+- A system: the role, in one or two words. `Board`, not the product.
+- A decision: the day it was taken, then what was decided as a sentence. `2026-11-24 Orbit holds the build board`. No running number: two pull requests cannot both take "the next one".
+- A resource or a plan: a clean title, no date.
+
 ## Where a page lives
 
 1. About more than one repo, or about how things run: here.
@@ -101,3 +114,7 @@ In Obsidian, [Pages.base](../Templates/Bases/Pages.base) shows every page with i
 ## Writing
 
 The vault's style: info-dense and plain, no commentary about the page itself, few em-dashes, little bold. Standard Markdown links, relative inside a repo. Shorten or delete before appending. Write no page nobody asked for.
+
+## Related
+
+![[Related.base#Everything]]

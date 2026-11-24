@@ -13,7 +13,7 @@ created: 2026-11-24T21:00
 
 # Board
 
-The one list of what is to do for the build, shared with agents. Today it is Orbit, self-hosted, project Homelab: tasks are `HOMEL-<n>`. Agents reach it through the tool gateway. On trial until 2026-12-08: [decision](../Decisions/Orbit%20holds%20the%20build%20board.md).
+The one list of what is to do for the build, shared with agents. Today it is Orbit, self-hosted, project Homelab: tasks are `HOMEL-<n>`. Agents reach it through the tool gateway. On trial until 2026-12-08: [decision](../Decisions/2026-11-24%20Orbit%20holds%20the%20build%20board.md).
 
 Personal tasks are not on it, and nothing private is written there.
 
@@ -45,3 +45,7 @@ Whoever finishes a step moves the next one to Todo.
 ## Ideas
 
 A new idea becomes one task in Backlog with a title and one line. It is not started, split or scheduled until it is pulled into Todo.
+
+## Related
+
+![[Related.base#Everything]]

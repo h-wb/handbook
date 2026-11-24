@@ -38,3 +38,7 @@ Written once, here. Everything else points at them.
 | The vault | A read-only copy of this handbook, so notes can link to it |
 
 The scope rule is the one thing repeated in each repo, because an agent must see it before it has read anything else.
+
+## Related
+
+![[Related.base#Everything]]

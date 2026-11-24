@@ -3,6 +3,8 @@ area: "[[Homelab]]"
 categories:
   - "[[Decisions]]"
 summary: Pages that span repos live in this repo as plain Markdown with the vault's properties; the vault gets a read-only copy.
+topics:
+  - "[[Handbook]]"
 created: 2026-11-24T21:00
 ---
 
@@ -22,7 +24,7 @@ Two alternatives were tried or measured on 2026-11-24:
 - This repo holds what spans repos and how things run, as plain Markdown with the vault's own properties: [Handbook](../Systems/Handbook.md).
 - Each code repo keeps the pages a change to its code could make wrong.
 - The vault gets a read-only copy of this repo, written by a job. Information only flows from general to private.
-- The board stays a separate tool: [decision](Orbit%20holds%20the%20build%20board.md).
+- The board stays a separate tool: [decision](2026-11-24%20Orbit%20holds%20the%20build%20board.md).
 
 ## Consequences
 

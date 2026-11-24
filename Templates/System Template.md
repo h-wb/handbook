@@ -18,3 +18,7 @@ What it is, in two sentences. Name the role, then what fills it today.
 ## How we use it
 
 ## Where its code is
+
+## Related
+
+![[Related.base#Everything]]
