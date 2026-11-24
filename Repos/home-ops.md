@@ -3,7 +3,7 @@ area: "[[Homelab]]"
 categories:
   - "[[Repos]]"
 reviewed: 2026-11-24
-summary: Everything that is deployed: both clusters, the NAS containers, and the pages about them.
+summary: "Everything that is deployed: both clusters, the NAS containers, and the pages about them."
 topics:
   - "[[Workshop]]"
   - "[[Board]]"
