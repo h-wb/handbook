@@ -8,7 +8,7 @@ created: 2026-11-24T21:00
 
 How things run here, and where everything is. For you after a week away, and for any agent that starts with no context.
 
-It is built like the vault: a note's properties say what it is, and tables come from the properties. How pages are written: [Handbook](Systems/Handbook.md).
+It is built like the vault: a note's properties say what it is, and tables come from the properties. What it is: [Handbook](Systems/Handbook.md). How to write a page: [Write a page](Resources/Write%20a%20page.md).
 
 ## What it is for
 
@@ -47,5 +47,6 @@ Private data only reaches models you trust with it. Notes, mail, calendar, perso
 
 - [Systems](Systems/): one page per thing that runs.
 - [Repos](Repos/): one page per code repo.
+- [Resources](Resources/): how-tos and references.
 - [Decisions](Decisions/): one page per decision.
 - In Obsidian: [Pages.base](Templates/Bases/Pages.base) lists every page, the longest unreviewed first.

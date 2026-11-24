@@ -21,7 +21,7 @@ Where agents with a shell work on the repos, through pull requests. Today it is 
 2. Respect the scope. A general agent never reads private data. Checks on the warehouse are counts and shapes, never contents.
 3. Branch and pull request. Never the main branch. Someone other than the author reviews what changes behaviour.
 4. Spend with care. Name a cheap model for every helper, one or two at a time. Do not step up to a dearer model without asking.
-5. Write little. Follow [Handbook](Handbook.md).
+5. Write little. Follow [Write a page](../Resources/Write%20a%20page.md).
 6. Finish by updating the record: the task and its steps, and any page your change made wrong.
 7. Park ideas. A new idea is one line in the backlog, not more work now.
 

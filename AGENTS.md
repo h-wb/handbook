@@ -1,6 +1,6 @@
 # handbook: instructions for agents
 
-What spans repos, and how things run. Read [README.md](README.md), then [Systems/Handbook.md](Systems/Handbook.md), which is the standard for every page here.
+What spans repos, and how things run. Read [README.md](README.md), then [Resources/Write a page.md](Resources/Write%20a%20page.md) before you write: it is the standard for every page here.
 
 ## Reading
 
