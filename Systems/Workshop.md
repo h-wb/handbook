@@ -23,7 +23,9 @@ created: 2026-11-24T21:00
 
 # Workshop
 
-Where agents with a shell work on the repos, through pull requests. Today it is Paseo, one workshop per scope. How it is deployed and wired is in [home-ops](../Repos/home-ops.md), under `kubernetes/apps/main/llm/paseo`.
+Where agents with a shell work on the repos, through pull requests. Today it is Paseo, one workshop per scope: [decision](../Decisions/2026-11-07%20Each%20scope%20runs%20in%20its%20own%20hardened%20pods.md). How it is deployed and wired is in [home-ops](../Repos/home-ops.md), in [paseo/README.md](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/paseo/README.md): pods, config, profiles, credentials, volumes.
+
+dotfiles defines what an agent is (its tool and memory servers, skills, instructions and model picks, written once and rendered per scope); home-ops defines where it runs and what it can reach. A new harness or machine picks a scope; it does not get its own config. In the general workshop the strongest model plans and cheaper ones work: [decision](../Decisions/2026-11-10%20The%20strongest%20model%20plans%20and%20cheaper%20ones%20do%20the%20work.md).
 
 ## The rules
 
@@ -47,6 +49,16 @@ Written once, here. Everything else points at them.
 | The vault | A read-only copy of this handbook, so notes can link to it |
 
 The scope rule is the one thing repeated in each repo, because an agent must see it before it has read anything else.
+
+## Helping a cheaper model
+
+In order of effect:
+
+1. Fewer tools in view, with short descriptions. Fix a tool's description before writing a skill about it.
+2. Anything that must happen the same way every time is a named tool or a job, not prose.
+3. One skill, one job: exact tool names, the order, and how to check it worked.
+4. A stronger model plans and reviews; a cheaper one does the work.
+5. When an agent stumbles twice on the same thing, change the tool description or the skill, not the prompt.
 
 ## Related
 

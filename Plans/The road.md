@@ -35,9 +35,8 @@ What is in progress is on [the board](../Systems/Board.md), and nowhere else. At
 ## Next
 
 - The systems that carry each milestone: the [warehouse](../Systems/Warehouse.md) for 1 and 2, the [calendar](../Systems/Calendar.md) and the board for 3, the [assistant](../Systems/Assistant.md) for 4 and 5.
-- How the assistant gets from running on a clock to knowing the right moment is designed in home-ops, in the assistant's design page. That design moves here once it is cut down to a plan.
+- How the assistant gets from running on a clock to knowing the right moment: [The aware assistant](The%20aware%20assistant.md).
 
 ## Open
 
 - The days of the three weekly building blocks.
-- Whether the assistant's design and the AI setup's design move here whole or as short pages. See [Put every page in its place](Put%20every%20page%20in%20its%20place.md).

@@ -37,9 +37,9 @@ These pages are mostly about how things run across repos, and belong here in the
 
 | Page today | Becomes |
 | --- | --- |
-| The AI setup's design, in home-ops | The scope rule as one page, a decision per choice, the rest onto the system pages |
-| The assistant's design, in home-ops | A plan here, and decisions |
-| The flows of the AI setup and of the warehouse, in home-ops | Stay until then. They show deployed wiring, which a change to home-ops can make wrong |
+| The AI setup's design, in home-ops | Done on 2026-11-24: a decision per choice in [Decisions](../Decisions/), what is deployed in home-ops' AI setup README, the rest onto the system pages and the board |
+| The assistant's design, in home-ops | Done on 2026-11-24: [The aware assistant](The%20aware%20assistant.md), and decisions |
+| The flows of the AI setup and of the warehouse, in home-ops | Stay. They show deployed wiring, which a change to home-ops can make wrong |
 | The warehouse's product plan, in pipelines | What is still open comes here. What is done is archived there |
 
 ## Decided
