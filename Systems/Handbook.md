@@ -22,6 +22,11 @@ This repo. Plain Markdown with the vault's own properties, so a page reads the s
 1. About more than one repo, or about how things run: here.
 2. A change to one repo's code could make it wrong: in that repo, with the same properties.
 3. About you, how you use something, what you want from it: the vault.
+4. A working document of a project, such as an audit, an investigation, a plan being carried out or a checklist: with its task on [the board](Board.md), not in a repo.
+
+A repo holds final pages: what is true and stays true. A working document lives as long as its project. When the project closes, what lasts is written into a final page (a decision, or a change to the page of the system it touched), and the working document is deleted with the task.
+
+If it fits one screen it goes in the task's description. If it is longer it is a document attached to the task. Either way it is not public, which matters for an audit that lists what is still open.
 
 A replaced or dropped page moves to `Archives/`, with `superseded_by` when another page replaces it. Same move as in the vault, and the only one.
 

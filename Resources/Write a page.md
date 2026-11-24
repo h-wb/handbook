@@ -86,7 +86,7 @@ Only what is in place today goes in `uses` and `feeds`. What is planned is said 
 | --- | --- | --- |
 | Systems | A noun: how something runs | What it is, how it fits, how we use it, where its code is |
 | Resources | Reference kept: how-tos, fixes | When to use it, the steps, how to check it worked |
-| Plans | A plan followed over time | The goal with its "done when", now, next, open questions |
+| Plans | A plan followed over time, not the plan of one task | The goal with its "done when", now, next, open questions |
 | Decisions | One decision | Context, decision, consequences. One page at most |
 | Repos | One code repo | What it holds and where its pages are. Ten lines |
 

@@ -48,6 +48,10 @@ Whoever finishes a step moves the next one to Todo.
 - The agent that opens or merges a pull request updates the step.
 - A task is closed after a reviewed merge or after you accept it, never because an agent thinks it is done.
 
+## Working documents
+
+An audit, an investigation, the plan of one outcome: these belong to the task, not to a repo. Short ones go in the description, longer ones in a document linked from it. When the task closes, what lasts goes into a final page and the working document is deleted. See [Handbook](Handbook.md#where-a-page-lives).
+
 ## Ideas
 
 A new idea becomes one task in Backlog with a title and one line. It is not started, split or scheduled until it is pulled into Todo.
