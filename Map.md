@@ -61,9 +61,7 @@ flowchart LR
     AS -.->|planned| WH
     WS --> BO
     WS --> HB
-    agents --> MG
-    agents --> TG
-    agents --> AM
+    AS & WS --> MG & TG & AM
     MG --> CL
     TG --> CL
     AM --> CL
