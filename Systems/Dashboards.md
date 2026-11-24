@@ -4,10 +4,15 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: Charts over the warehouse, one collection per source.
+type:
+  - record
+uses:
+  - "[[Warehouse]]"
 created: 2026-11-24T22:00
 ---
 

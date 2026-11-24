@@ -4,12 +4,16 @@ area:
 categories:
   - "[[Systems]]"
 confidence:
+feeds: []
+hosted:
 reviewed:
 status:
   - active
 summary:
+type: []
 upkeep:
 use:
+uses: []
 created:
 ---
 

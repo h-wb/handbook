@@ -45,6 +45,7 @@ Private data only reaches models you trust with it. Notes, mail, calendar, perso
 
 ## Browse
 
+- [Map](Map.md): how the systems connect, and what reaches the warehouse.
 - [Systems](Systems/): one page per thing that runs. Its properties make [the table of systems](Systems/Handbook.md#the-table-of-systems): what is in use, how much, what it costs to keep, and when it was last checked.
 - [Repos](Repos/): one page per code repo.
 - [Resources](Resources/): how-tos and references.

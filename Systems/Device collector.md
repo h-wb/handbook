@@ -4,14 +4,19 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+feeds:
+  - "[[Warehouse]]"
+hosted: device
 reviewed: 2026-11-24
 status:
   - active
 summary: "On a device: reads local sources, masks what must not leave, and delivers the rest to the warehouse."
+type:
+  - record
 created: 2026-11-24T22:00
 ---
 
-# Collector
+# Device collector
 
 A small program on each of your machines that feeds the [warehouse](Warehouse.md). It sends rows as they are and never interprets them.
 

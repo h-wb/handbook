@@ -5,7 +5,7 @@ categories:
 reviewed: 2026-11-24
 summary: Checks the location history against its backups, finds lost or damaged days and repairs them. Private.
 topics:
-  - "[[Location]]"
+  - "[[Location tracker]]"
 url: https://github.com/h-wb/dawarich-regression
 created: 2026-11-24T21:00
 ---

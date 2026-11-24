@@ -4,14 +4,17 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: external
 reviewed: 2026-11-24
 status:
   - active
 summary: "Your own knowledge, private: the vault."
+type:
+  - service
 created: 2026-11-24T22:00
 ---
 
-# Notes
+# Notes vault
 
 Your vault. Private: only you and agents of the private scope read it.
 

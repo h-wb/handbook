@@ -4,10 +4,13 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: Bulk storage, backups and the object store, outside the clusters.
+type:
+  - platform
 created: 2026-11-24T22:00
 ---
 

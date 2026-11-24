@@ -4,10 +4,15 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: Runs a named job with fixed inputs on real data, on a schedule or on request.
+type:
+  - platform
+uses:
+  - "[[Cluster]]"
 created: 2026-11-24T22:00
 ---
 

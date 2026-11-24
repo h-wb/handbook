@@ -4,10 +4,15 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: The only path to any model. Each client's key lists the models it may use.
+type:
+  - platform
+uses:
+  - "[[Cluster]]"
 created: 2026-11-24T22:00
 ---
 

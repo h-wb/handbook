@@ -4,9 +4,12 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: external
 status:
   - active
 summary: What happens when, and what time is free.
+type:
+  - service
 created: 2026-11-24T22:00
 ---
 

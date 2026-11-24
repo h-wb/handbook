@@ -4,14 +4,19 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: How you reach the assistant, and how it reaches you.
+type:
+  - service
+uses:
+  - "[[Cluster]]"
 created: 2026-11-24T22:00
 ---
 
-# Messaging
+# Messaging app
 
 The app you talk to the [assistant](Assistant.md) in. Today it is Matrix, on a server in the cluster.
 

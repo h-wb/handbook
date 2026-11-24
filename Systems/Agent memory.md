@@ -4,14 +4,19 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: What agents remember between sessions, one store per scope.
+type:
+  - platform
+uses:
+  - "[[Cluster]]"
 created: 2026-11-24T22:00
 ---
 
-# Memory
+# Agent memory
 
 A store agents write to and recall from across sessions. Today it is Memini, with one store for the general scope and one for the private scope.
 

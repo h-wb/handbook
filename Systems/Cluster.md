@@ -4,10 +4,15 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: "The machines everything runs on: a main cluster of three nodes and an edge cluster of one."
+type:
+  - platform
+uses:
+  - "[[NAS]]"
 created: 2026-11-24T22:00
 ---
 

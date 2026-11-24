@@ -4,10 +4,15 @@ aliases:
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: self
 reviewed: 2026-11-24
 status:
   - active
 summary: Home automation, on the edge cluster.
+type:
+  - service
+uses:
+  - "[[Cluster]]"
 created: 2026-11-24T22:00
 ---
 

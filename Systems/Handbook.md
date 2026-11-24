@@ -2,10 +2,13 @@
 area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
+hosted: external
 reviewed: 2026-11-24
 status:
   - active
 summary: What the handbook is, where a page lives, how systems and repos are named once, and how pages stay true.
+type:
+  - work
 upkeep: low
 created: 2026-11-24T21:00
 ---
@@ -37,6 +40,10 @@ One row per system, from the properties of its page: whether it is in use (`stat
 It is the view of where things stand: what runs, what you rely on, what costs more than it gives. In Obsidian it is the Systems view of [Pages.base](../Templates/Bases/Pages.base). A blank cell means nobody has judged it yet.
 
 The assistant reads the same properties. A system that is used rarely, asks for a lot, or has low confidence is one to bring up for revision.
+
+## The map
+
+Each system page says what it `uses` and what it `feeds`. [Map](../Map.md) draws that at two levels: the whole thing, and what reaches the warehouse. In Obsidian, the Connections view of [Pages.base](../Templates/Bases/Pages.base) is the same as a table, and the graph view shows it live.
 
 ## Staying true
 
