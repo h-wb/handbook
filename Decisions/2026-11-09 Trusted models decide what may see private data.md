@@ -20,7 +20,7 @@ The first split was cloud against local. What decides the risk is which provider
 
 ## Decision
 
-- [The one rule](../README.md#the-one-rule) is about trusted models. Which models are trusted is a list on the keys, not part of the design: today the models served by Mistral's API, GLM models included, and local models. Claude and ChatGPT work on general data only.
+- [The one rule](../README.md#the-one-rule) is about trusted models. Which models are trusted is a list on the keys, not part of the design. On the day of this decision: the models served by Mistral's API, GLM models included, and local models; Claude and ChatGPT worked on general data only. The list as it stands is in home-ops, in [Models, tools and memory](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/llm/README.md), and nowhere else.
 - Home Assistant is private.
 - "Scope" is the only term, not tier or segment.
 - Three layers enforce it, and nothing else is relied on: each client's model key lists its models, with trusted ones only on a private key; one [tool gateway](../Systems/Tool%20gateway.md) per scope, with a network rule that admits only that scope; one [memory store](../Systems/Agent%20memory.md) per scope.

@@ -100,6 +100,8 @@ Only what is in place today goes in `uses` and `feeds`. What is planned is said 
 
 A decision gets its own page in the repo it concerns, or here if it spans repos. The one exception is pipelines' numbered decisions file: code and pages cite it by number, so it stays as it is and takes no new decision.
 
+Words: data is private or general; a model is trusted or not; the place an agent runs in gives it its scope. A page says "trusted models" and never lists them: the names are in home-ops, where the keys that make a model trusted are defined.
+
 Routines, skills and agent instructions (`SKILL.md`, `AGENTS.md` and the like) are instructions an agent runs, not pages. They get no properties.
 
 
