@@ -5,7 +5,7 @@ area: "[[Homelab]]"
 categories:
   - "[[Systems]]"
 hosted: self
-reviewed: 2026-11-24
+reviewed: 2026-11-25
 status:
   - active
 summary: Glue between services, such as when this arrives there, write that here; built by hand in its interface.
@@ -25,7 +25,7 @@ Connects one service to another when something happens or on a clock. Today it i
 ## How it fits
 
 - Its workflows are built and kept in its own interface, not in git. Read the list there; no page copies it.
-- It writes notes into the [vault](Notes%20vault.md) through an Obsidian running in the cluster, so the change syncs to every device.
+- It writes notes into the [vault](Notes%20vault.md)'s copy in the cluster, through a tool server only it may call, so the change syncs to every device.
 - It is not where work on your data runs: that is the [job runner](Job%20runner.md). It is not what talks to you: that is the [assistant](Assistant.md).
 
 ## How we use it
