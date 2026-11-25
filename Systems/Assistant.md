@@ -17,6 +17,7 @@ uses:
   - "[[Model gateway]]"
   - "[[Agent memory]]"
   - "[[Personal tasks]]"
+  - "[[Board]]"
   - "[[Calendar]]"
   - "[[Notes vault]]"
 created: 2026-11-24T22:00
@@ -29,6 +30,7 @@ The assistant you reach through [messaging](Messaging%20app.md). Today it is Her
 ## How it fits
 
 - It reads and writes your [tasks](Personal%20tasks.md) and your [notes](Notes%20vault.md), and reads your [calendar](Calendar.md), through the [tool gateway](Tool%20gateway.md). It asks before it writes a note.
+- It reads the [board](Board.md) and never writes it: the board is general and the assistant private, so information flows from the board to it, never back. Its gateway lists the board's read-only task tools only. The morning briefing lists your steps that are ready; build work you tell it, it drafts for you to add, or hands to the [workshop](Workshop.md).
 - It runs on a clock: a morning briefing, a location review, a midday nudge, an evening check-in, reminders, a weekly review. Coming to know the right moment instead is [The aware assistant](../Plans/The%20aware%20assistant.md).
 - It has no shell; everything it does is a named tool, and a write asks first: [decision](../Decisions/2026-11-09%20One%20private%20assistant%20acts%20only%20through%20named%20tools.md).
 - Coding work is not its job. It hands that to the [workshop](Workshop.md), and shows you the request first: [decision](../Decisions/2026-11-09%20A%20hand-off%20to%20a%20workshop%20shows%20its%20prompt%20and%20asks.md).

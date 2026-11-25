@@ -23,7 +23,7 @@ Agents do not connect to tools one by one. They reach one gateway, which serves 
 ## How it fits
 
 - One gateway per scope: general, private, and one for the [assistant](Assistant.md).
-- The general gateway lists only tools that hold nothing private. The private ones serve the whole catalogue.
+- The general gateway lists only tools that hold nothing private. The private ones serve the whole catalogue, except that they list only the [board](Board.md)'s read-only task tools: it is general, and nothing goes back to it.
 - A tool is added once, as an entry in the catalogue, and every agent of that scope gets it.
 
 ## Where its code is
