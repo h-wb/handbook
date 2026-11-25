@@ -57,7 +57,16 @@ Every agent does the same thing because it runs the same skills, written once in
 - A skill is a map, not a copy. It says where to look and in what order, and links the page that holds the rule. It never restates a rule, so a rule changes in one place and the skill stays true.
 - A skill costs almost nothing until it is used: an agent sees only its one-line description, and loads the rest when a task matches. Keep the body under about sixty lines.
 - Pages are found through their `summary` lines, which together are an index of a few lines per repo. An agent reads that index, then one page, not a folder.
-- A procedure for one repo is a skill in that repo (`.agents/skills/`). A routine of the assistant lives beside the assistant in home-ops.
+- Where a skill lives depends on who runs it, and each lives in one place only:
+
+  | Run by | Lives in |
+  | --- | --- |
+  | Every agent | dotfiles `conf.d/ai/skills/`: the one catalogue |
+  | Agents in the workshops only | dotfiles `conf.d/paseo/skills/` |
+  | Agents working in one repo | that repo's `.agents/skills/` |
+  | The assistant alone, often on a schedule | its routines, beside it in home-ops |
+
+- The assistant does not take the whole catalogue: it names the shared skills it uses, so a new one reaches it only when chosen. A routine that does what a shared skill does is replaced by that skill.
 - An agent that did not write the skills checks each week that they still match the handbook and the code.
 
 ## Helping a cheaper model
