@@ -52,7 +52,7 @@ The scope rule is the one thing repeated in each repo, because an agent must see
 
 ### The shared skills
 
-Every agent does the same thing because it runs the same skills, written once in [skills](../Repos/skills.md). Each place declares the ones it takes, at a pinned commit: workstations and pods in [dotfiles](../Repos/dotfiles.md), which links them into every agent's skills folder, and the assistant in [home-ops](../Repos/home-ops.md), whose sync job copies its list. Every agent takes three: `tool-gateway` (reach a tool), `handbook` (find the page that answers, keep pages true) and `board` (read and update [the board](Board.md)). The workshops add `orchestrate` and `paseo-workspace-hygiene`.
+Every agent does the same thing because it runs the same skills, written once in [skills](../Repos/skills.md). The skills come in groups, defined in that repo, and each place declares the groups it takes, never single skills. Workstations and pods take theirs in [dotfiles](../Repos/dotfiles.md), which follows the catalogue's `main` and links each skill of a group into every agent's skills folder. The assistant takes its groups in [home-ops](../Repos/home-ops.md), whose sync job copies them at a pinned commit. Every agent takes `core`: `tool-gateway` (reach a tool), `handbook` (find the page that answers, keep pages true) and `board` (read and update [the board](Board.md)). The workshops add `workshop`: `orchestrate` and `paseo-workspace-hygiene`.
 
 - A skill is a map, not a copy. It says where to look and in what order, and links the page that holds the rule. It never restates a rule, so a rule changes in one place and the skill stays true.
 - A skill costs almost nothing until it is used: an agent sees only its one-line description, and loads the rest when a task matches. Keep the body under about sixty lines.
@@ -61,12 +61,12 @@ Every agent does the same thing because it runs the same skills, written once in
 
   | Run by | Lives in |
   | --- | --- |
-  | Every agent | [skills](../Repos/skills.md); each place declares its list |
-  | The workshops only | [skills](../Repos/skills.md), declared by the pods |
+  | Every agent | [skills](../Repos/skills.md), group `core` |
+  | The workshops only | [skills](../Repos/skills.md), group `workshop`, taken by the pods |
   | Agents working in one repo | that repo's `.agents/skills/` |
   | The assistant alone, often on a schedule | its routines, beside it in home-ops |
 
-- A new skill reaches an agent only when its place declares it; the assistant does not take the whole catalogue either. A routine that does what a shared skill does is replaced by that skill.
+- A new skill reaches an agent only through a group its place takes; the assistant does not take the whole catalogue either. Adding a skill to a group, or taking it out, reaches every place that takes the group, with no change there: machines at their next apply, pods at their next start, the assistant when its pin moves. A routine that does what a shared skill does is replaced by that skill.
 - An agent that did not write the skills checks each week that they still match the handbook and the code.
 
 ## Helping a cheaper model
