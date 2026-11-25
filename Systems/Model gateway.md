@@ -22,7 +22,7 @@ Every agent and every tool reaches a model through this gateway and nothing else
 
 ## How it fits
 
-It is one of the three things that enforce the privacy rule: a key of the private scope lists trusted models only, so private data cannot reach another model even by mistake. [Every model call goes through it](../Decisions/2026-11-05%20Every%20model%20call%20goes%20through%20one%20gateway.md), with two accepted exceptions; which models are trusted is [a list on the keys](../Decisions/2026-11-09%20Trusted%20models%20decide%20what%20may%20see%20private%20data.md).
+It is one of the three things that enforce the privacy rule: a key of the private scope lists trusted models only, so private data cannot reach another model even by mistake. [Every model call goes through it](../Decisions/2026-11-05%20Every%20model%20call%20goes%20through%20one%20gateway.md), with three accepted exceptions; which models are trusted is [a list on the keys](../Decisions/2026-11-09%20Trusted%20models%20decide%20what%20may%20see%20private%20data.md).
 
 ## Where its code is
 
