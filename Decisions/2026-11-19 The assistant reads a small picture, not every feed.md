@@ -28,5 +28,5 @@ The trusted models are the weakest part of the setup, and no prompt can hold a l
 
 - Two paths: the record answers what happened, within a minute to an hour; the live path answers whether now is a good moment, within seconds.
 - Each feed is declared once: who keeps its record, and whether it has a live signal.
-- How devices and sources reach the warehouse is decided in pipelines, in `docs/miroir/decisions.md` (030, 033, 038, 040, 042).
+- How devices and sources reach the warehouse is decided in miroir, in `docs/miroir/decisions.md` (030, 033, 038, 040, 042).
 - The work: [The aware assistant](../Plans/The%20aware%20assistant.md).

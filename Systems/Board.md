@@ -47,7 +47,7 @@ Six, for what the parent, the assignee and the status do not show. A task carrie
 
 | Label | Means |
 | --- | --- |
-| `handbook`, `home-ops`, `pipelines`, `dotfiles` | The repo its pull requests land in. A task that touches two carries both |
+| `handbook`, `home-ops`, `miroir`, `dotfiles` | The repo its pull requests land in. A task that touches two carries both |
 | `decision` | A choice only you can make |
 | `hands-on` | Needs your machine, your accounts or the NAS; an agent cannot do it |
 
@@ -67,7 +67,7 @@ A page that states something a task will change names the task beside it: "does 
 - Before closing a task, search its number in every repo and bring each line up to date, in the same pull request where possible:
 
   ```sh
-  grep -rn --include='*.md' 'HOMEL-49\b' handbook home-ops pipelines dotfiles
+  grep -rn --include='*.md' 'HOMEL-49\b' handbook home-ops miroir dotfiles
   ```
 
 - The line then states the new fact and drops the number. A closed task's number in a page is a page left stale.

@@ -98,7 +98,7 @@ Only what is in place today goes in `uses` and `feeds`. What is planned is said 
 - A decision: the day it was taken, then what was decided as a sentence. `2026-11-24 Orbit holds the build board`. No running number: two pull requests cannot both take "the next one".
 - A resource or a plan: a clean title, no date.
 
-A decision gets its own page in the repo it concerns, or here if it spans repos. The one exception is pipelines' numbered decisions file: code and pages cite it by number, so it stays as it is and takes no new decision.
+A decision gets its own page in the repo it concerns, or here if it spans repos. The one exception is miroir's numbered decisions file: code and pages cite it by number, so it stays as it is and takes no new decision.
 
 Words: data is private or general; a model is trusted or not; the place an agent runs in gives it its scope. A page says "trusted models" and never lists them: the names are in home-ops, where the keys that make a model trusted are defined.
 
