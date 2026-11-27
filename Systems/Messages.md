@@ -19,7 +19,7 @@ created: 2026-11-24T23:45
 
 A source of the [warehouse](Warehouse.md). Today it is Apple Messages. Read on a Mac by the [device collector](Device%20collector.md). The most private source there is.
 
-How it is read and what it becomes there: [its page in pipelines](https://github.com/h-wb/pipelines/blob/main/docs/sources/apple-messages.md).
+How it is read and what it becomes there: [its page in miroir](https://github.com/h-wb/miroir/blob/main/docs/sources/apple-messages.md).
 
 ## Related
 

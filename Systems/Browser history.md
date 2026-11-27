@@ -19,7 +19,7 @@ created: 2026-11-24T23:45
 
 A source of the [warehouse](Warehouse.md). Today it is Zen. Read on the Mac by the [device collector](Device%20collector.md).
 
-How it is read and what it becomes there: [its page in pipelines](https://github.com/h-wb/pipelines/blob/main/docs/sources/browser-history.md).
+How it is read and what it becomes there: [its page in miroir](https://github.com/h-wb/miroir/blob/main/docs/sources/browser-history.md).
 
 ## Related
 

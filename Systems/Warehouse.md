@@ -31,7 +31,7 @@ The record of what happened. Today it is Miroir.
 
 ## Where its code is
 
-The application is [pipelines](../Repos/pipelines.md); how data moves through it: [its flows](https://github.com/h-wb/pipelines/blob/main/docs/miroir/flows.md). It is deployed from [home-ops](../Repos/home-ops.md): what is deployed, its secrets and how to operate it in [its page](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md).
+The application is [miroir](../Repos/miroir.md); how data moves through it: [its flows](https://github.com/h-wb/miroir/blob/main/docs/miroir/flows.md). It is deployed from [home-ops](../Repos/home-ops.md): what is deployed, its secrets and how to operate it in [its page](https://github.com/h-wb/home-ops/blob/main/kubernetes/apps/main/automation/miroir/README.md).
 
 ## Related
 

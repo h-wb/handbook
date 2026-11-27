@@ -80,7 +80,7 @@ Who checks:
 In Obsidian, [Pages.base](../Templates/Bases/Pages.base) shows every page of this handbook with its last review, oldest first. Pages in the other repos carry the same properties but are outside this folder, so the table does not list them yet: they join it when the handbook and the repos' pages are copied into the vault together. Until then, one command over the repos side by side lists them all:
 
 ```sh
-grep -r --include='*.md' -H '^reviewed:' handbook home-ops pipelines dotfiles | sort -t: -k3
+grep -r --include='*.md' -H '^reviewed:' handbook home-ops miroir dotfiles | sort -t: -k3
 ```
 
 
